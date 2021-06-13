@@ -8,7 +8,7 @@ app.set("view engine", "ejs")
 
 app.get("/", function(req, res){
     const items = [
-        {title: "D",
+        {title: "D", 
         message:"Lorem ipsum dolor sit amet."
     },
     {
